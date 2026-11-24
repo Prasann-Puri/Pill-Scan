@@ -2,8 +2,6 @@ import 'salt.dart';
 
 /// A medicine that the user has confirmed and added to their list.
 /// Stored in memory for Phase 3; persisted to SQLite in Phase 5.
-library;
-
 class MyMedicine {
   final int medicineId;
   final String brandName;

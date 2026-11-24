@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../../core/strings.dart';
 import '../../core/theme.dart';
 import '../../widgets/big_button.dart';
-import '../scan/scan_placeholder_screen.dart';
+import '../scan/camera_scan_screen.dart';
 import '../my_medicines/my_medicines_screen.dart';
 
 /// Screen 1 — Home.
@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (_) => const ScanPlaceholderScreen(),
+                      builder: (_) => const CameraScanScreen(),
                     ),
                   );
                 },

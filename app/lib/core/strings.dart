@@ -18,8 +18,16 @@ class Strings {
   static const homeScan = 'Scan medicine';
   static const homeMyMeds = 'My medicines';
 
-  // ── Scan placeholder ─────────────────────────────────────────────────
+  // ── Scan ─────────────────────────────────────────────────────────────
   static const scanTitle = 'Scan medicine';
+  static const scanInstruction =
+      'Hold the medicine strip steady inside the frame.';
+  static const scanCaptureButton = 'Capture photo';
+  static const scanTorchOn = 'Turn flash on';
+  static const scanTorchOff = 'Turn flash off';
+  static const scanNoCamera = 'Camera not available on this device.';
+  static const scanPermissionDenied =
+      'Camera permission is required to scan medicine strips.';
   static const scanComingSoon =
       'Camera scanning will be available soon.\n'
       'For now, please type the medicine name.';

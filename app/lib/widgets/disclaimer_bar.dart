@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../core/strings.dart';
-import '../core/theme.dart';
 import '../core/constants.dart';
 
 /// Persistent disclaimer bar shown at the bottom of every Result screen.

@@ -1,8 +1,6 @@
 import 'salt.dart';
 
 /// One result row from GET /medicines/search (README §13).
-library;
-
 class MedicineSearchResult {
   final int medicineId;
   final String brandName;
