@@ -20,3 +20,8 @@ ios/Flutter/Flutter.podspec
 # General
 .DS_Store
 *.swp
+
+# IDE & Tooling
+.idea/
+.metadata
+*.iml
